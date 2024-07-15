@@ -1,0 +1,171 @@
+body {
+    background-image: repeating-linear-gradient(135deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 10px, transparent 10px, transparent 11px), repeating-linear-gradient(22.5deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 10px, transparent 10px, transparent 11px), linear-gradient(90deg, hsl(194, 74%, 56%), hsl(266, 74%, 56%), hsl(338, 74%, 56%), hsl(50, 74%, 56%), hsl(122, 74%, 56%));
+
+    margin: 0px;
+    padding: 0;
+}
+
+
+#heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    background-size: auto;
+
+    display: flex;
+
+}
+
+#border {
+    margin-top: 40px;
+    margin-right: 500px;     
+    margin-left: 500px;
+    height: cover;
+    border: 1px black solid;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-image: radial-gradient(circle at 29% 55%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 4%, transparent 4%, transparent 44%, transparent 44%, transparent 100%), radial-gradient(circle at 85% 89%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 51%, transparent 51%, transparent 52%, transparent 52%, transparent 100%), radial-gradient(circle at 6% 90%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 53%, transparent 53%, transparent 64%, transparent 64%, transparent 100%), radial-gradient(circle at 35% 75%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 6%, transparent 6%, transparent 98%, transparent 98%, transparent 100%), radial-gradient(circle at 56% 75%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 16%, transparent 16%, transparent 23%, transparent 23%, transparent 100%), radial-gradient(circle at 42% 0%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 3%, transparent 3%, transparent 26%, transparent 26%, transparent 100%), radial-gradient(circle at 29% 28%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 51%, transparent 51%, transparent 75%, transparent 75%, transparent 100%), radial-gradient(circle at 77% 21%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 35%, transparent 35%, transparent 55%, transparent 55%, transparent 100%), radial-gradient(circle at 65% 91%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 46%, transparent 46%, transparent 76%, transparent 76%, transparent 100%), linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+}
+
+
+
+#signup {
+    margin-top: 55px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#signup h2 {
+    font-size: 35px;
+}
+
+#signup input {
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: transparent;
+    transition: 1s;
+    transition-duration: 0s;
+}
+
+#signup input:hover {
+  border-color: red;
+  
+  font-size: 19px;
+}
+
+#signup input::placeholder {
+    padding: 0px 0px;
+    font-size: 15px;
+}
+
+
+#signup button {
+    background-color: rgb(63, 183, 234);
+    color: white;
+    width: 190px;
+    border-color: transparent;
+    padding: 10px 10px;
+    transition: 1s;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#signup button:hover {
+    background-color: blue;
+}
+
+
+#member {
+    margin-top: 10px;
+}
+
+#member h4,
+a {
+    font-size: 15px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#member a {
+    color: blue;
+}
+
+#nav :where(h2, h3) {
+    color: white;
+    padding-left: 38px;
+    display: flex;
+
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#info a{
+
+    padding: 50px 20px;
+    color: white;
+    transition: 1;
+    transition-duration: 1s;
+    text-decoration-line: none;
+}
+
+#info a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+#copyright {
+    color: black;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+@media  only screen and (max-width: 1280px) {
+    
+
+    #border {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #info  {
+       display: flex;
+       flex-wrap: wrap;
+       
+        margin-top: 50px;
+        transition: none;
+    }
+    
+
+    #info a {
+        padding: 10px 15px;
+    }
+
+    #info a:hover {
+       color: white;
+        font-size: 17px;
+        color: red;
+    }
+}
