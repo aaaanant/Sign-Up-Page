@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+ 
+    <div id="heading">
+        <h1>STACKSCULPTOR</h1>
+    </div>
+
+    <div id="border">
+
+        <div id="signup">
+            <h2>SignUp</h2>
+            <input type="text" placeholder="Email or Phone No.">
+
+            <input type="password" placeholder="Password">
+            <button onclick="window.location.href='https:www.instagram.com/stacksculptor'">SIGNUP</button>
+            <div id="member">
+                <h4>Already Login? <a href="first.html">Log In</a></h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="info">
+        <a href="example.com" id="help">Helps</a>
+        <a href="#">About</a>
+        <a href="#">Blogs</a>
+        <a href="#">Policy</a>
+        <a href="#">Research</a>
+        <a href="#">Terms</a>
+        <a href="#">Location</a>
+        <a href="#">Contact</a>
+        <a href="#">FAQ</a>
+        <a href="#">Chat on Whatsapp</a>
+        
+    </div>
+
+
+    <div id="copyright">
+
+        <div id="copyright">
+            <p> Stackculptor</p>
+            <p>&copy; 2024 by Anant</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
